@@ -33,6 +33,6 @@
 
 - Create an account in Github (if you don't have one) and create a new repository for your app. Configure the repository as a remote origin in your local directory and push your solution to the Github repo. 
 
-- Please send us the link to the solution and a short documentation about what you did to achieve the goal and what where your experiences. Don't be afraid to talk about problems your encountered (we all do in our daily work). 
+- Please send us the link to the solution and a short documentation about what you did to achieve the goal and what where your experiences. Don't be afraid to talk about problems your encountered (we all do in our daily work).
 
 
