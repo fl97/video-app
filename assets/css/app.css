@@ -1,3 +1,9 @@
 body {
-    background-color: lightgray;
+  background-color: lightgrey;
+  font-family: montserrat;
 }
+
+ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=app.css.map */

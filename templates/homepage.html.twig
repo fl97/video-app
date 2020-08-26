@@ -1,3 +1,20 @@
-<h1>These are our latest videos</h1>
+{% extends "base.html.twig" %}
+
+{% block title %}Welcome{% endblock %}
+{% block body %}
+    <h1>These are our latest videos</h1>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <ul class="list">
+                    <li><a href="/videos/video1">{{ videos.video1.name }}</a></li>
+                    <li><a href="/videos/video2">{{ videos.video2.name }}</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+{% endblock %}
 
 {# here you can use the Twig variable 'videos' that gets passed from the controller #}
