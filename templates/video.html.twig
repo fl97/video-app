@@ -5,11 +5,9 @@
 	<link rel="stylesheet" href="/static/plyr/plyr.css">
 {% endblock %}
 
-
 {% block title %}Welcome{% endblock %}
 {% block body %}
     <h1>{{ videodata.name }}</h1>
-
     <div class="container">
         <div class="row">
             <div class="col-sm-2"></div>
@@ -21,15 +19,10 @@
             <div class="col-sm-2"></div>
         </div>
     </div>
-
 {% block javascripts %}
 	<script src="/static/plyr/plyr.js"></script>
 {% endblock %}
-
 {% endblock %}
-
-
-
 
 {# 
    here you can use the Twig variable 'videodata' that gets passed from the controller. 
